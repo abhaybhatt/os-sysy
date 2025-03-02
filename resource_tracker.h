@@ -5,6 +5,7 @@
 #include <linux/kernel.h>
 #include <linux/list.h>
 #include <linux/mutex.h>
+#include <linux/types.h>
 
 // Data structure to track process resource usage
 struct per_proc_resource {
